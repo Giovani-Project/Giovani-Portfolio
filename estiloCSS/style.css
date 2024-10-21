@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+/*Typical Device Breakpoints
+-----------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet:  768px até 992px
+Desktop: 992px até 1200px
+TV / (Grandes Telas): acima de 1200px
+*/
+
 @font-face {
     font-family: 'Akronim';
     font-family: 'Updock';
@@ -38,7 +47,7 @@
     padding: 0px;
     border: 0px;
 }
-
+@media screen and (max-width: 768px) {
 body {
     background-color: black;
     color: white;
@@ -113,4 +122,5 @@ main .nomegiovani {
 main .resumo {
     color: var(--cor2);
     text-shadow: 0px 0px 20px var(--cor2);
+}
 }
