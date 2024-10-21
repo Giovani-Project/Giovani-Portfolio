@@ -82,11 +82,28 @@ nav > a:hover {
     text-shadow: 0px 0px 20px var(--cor2);
 }
 
-
-
 main {
     padding: 10px;
 }
 img {
-    width: 100%;
+    position: relative;
+    width: 50vw;
+    height: 30vh;
+    border-radius: 100% 100%;
+    margin: auto;
+    padding: 10px 100px;
+}
+
+main p {
+    padding: 2em 1em;
+}
+
+main .nomegiovani {
+    color: var(--cor2);
+    text-shadow: 0px 0px 20px var(--cor2);
+}
+
+main .resumo {
+    color: var(--cor2);
+    text-shadow: 0px 0px 20px var(--cor2);
 }
