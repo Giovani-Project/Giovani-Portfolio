@@ -56,7 +56,7 @@ body, html {
     height: 100vh;
     width: auto;
     font-family: Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
+    
 }
 
 header {
@@ -228,7 +228,7 @@ div > a:hover {
 #raiz > h1 {
     position: relative;
     top: 180px;
-    left: 140px;
+    
     font-size: 40px;
 }
 
@@ -265,7 +265,7 @@ div > a:hover {
 
 .r1 {
     position: relative;
-    top: 225px;
+    top: 235px;
     right: 40px;
 }
 
@@ -273,7 +273,9 @@ div > a:hover {
 .r2 {
     position: relative;
     top: 280px;
-    left: 250px;
+    float: right;
+    display: inline-block;
+    
 }
 
 .r3 {
@@ -284,6 +286,7 @@ div > a:hover {
 
 .r4 {
     position: relative;
-    left: 250px;
+    float: right;
     bottom: 90px;
+    display: inline-block;
 }
