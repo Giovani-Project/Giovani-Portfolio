@@ -92,9 +92,17 @@ img {
     margin: auto;
     padding: 10px 100px;
 }
+h2 {
+    font-size: 20px;
+}
 
 main p {
+    margin-right: 60px;
+    margin-left: 60px;
     padding: 2em 1em;
+    text-align: center;
+    text-align: justify;
+    font-size: medium;
 }
 
 main .nomegiovani {
