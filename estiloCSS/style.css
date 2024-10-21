@@ -50,7 +50,7 @@ body {
 }
 
 header {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 nav > h1 {
@@ -87,8 +87,8 @@ main {
 }
 img {
     position: relative;
-    width: 50vw;
-    height: 30vh;
+    width: 55%;
+    height: 40vh;
     border-radius: 100% 100%;
     margin: auto;
     padding: 10px 100px;
