@@ -53,7 +53,7 @@ TV / (Grandes Telas): acima de 1200px
 body, html {
     background-color: #0c1118;
     color: white;
-    height: auto;
+    height: 100vh;
     width: auto;
     font-family: Arial, Helvetica, sans-serif;
     
