@@ -56,7 +56,7 @@ body, html {
     height: 100vh;
     width: auto;
     font-family: Arial, Helvetica, sans-serif;
-    
+    overflow: ;
 }
 
 header {
@@ -87,7 +87,7 @@ nav a{
     
 }
 nav > a:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition: transform 0.3s;
     color: var(--cor2);
     text-decoration: underline;
@@ -95,26 +95,11 @@ nav > a:hover {
     
 }
 
+
 main {
     padding: 10px;
 }
-img {
-    margin-bottom: 30px;
-    height: 200px;
-    
-    width: 200px;
-    left: 50%;
-    border-radius: 50% 50%;
-    float: right;
-    border: 2px solid var(--cor2);
-    box-shadow: 0px 0px 12px var(--cor2);
-}
-img:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s;
-    box-shadow: 0px 0px 30px var(--cor2);
-    cursor: pointer;
-}
+
 h2 {
     font-size: 20px;
 }
@@ -137,4 +122,151 @@ main .nomegiovani {
 main .resumo {
     color: var(--cor2);
     text-shadow: 0px 0px 20px var(--cor2);
+}
+img {
+    height: 200px;
+    background-size: cover;
+    width: 200px;
+    left: 50%;
+    border-radius: 50% 50%;
+    float: right;
+    border: 2px solid var(--cor2);
+    box-shadow: 0px 0px 12px var(--cor2);
+    
+}
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+    box-shadow: 0px 0px 30px var(--cor2);
+    cursor: pointer;
+}
+
+main > section > div > a {
+    position: relative;
+    left: 50px;
+    top: 100px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+div > a:hover { 
+    transform: scale(1.2);
+    transition: transform 0.3s;
+    color: var(--cor2);
+    text-decoration: underline;
+    text-shadow: 0px 0px 20px var(--cor2);
+}
+
+#raiz {
+    margin-top: 20em;
+    font-size: 15px;
+    
+}
+
+.linhav {
+    width: 1px;
+    height: 500px;
+    background-color: white;
+    margin-left: 50%;
+    position: relative;
+}
+
+.linhav::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: -6px;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.linhav::after {
+    content: '';
+    position: absolute;
+    top: 166px;
+    left: -6px;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+
+.linhab::before {
+    content: '';
+    position: absolute;
+    top: 332px;
+    left: -6px;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.linhab::after {
+    content: '';
+    position: absolute;
+    top: 500px;
+    left: -6px;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+#raiz > h1 {
+    position: relative;
+    top: 150px;
+    left: 180px;
+}
+
+#raiz > div > p,h3 {
+    position: relative;
+    font-size: 10px;
+    width: 30vw;
+}
+
+.r1, .r2 , .r3 , .r4 {
+    display: inline-block;
+    
+}
+
+.r1 > h3 ,.r3 > h3 {
+    float: right;
+    width: 100px;
+    font-size: 15px;
+}
+.r2 > h3 , .r4 > h3 {
+    float: left;
+    width: 100px;
+    font-size: 15px;
+}
+
+.r1 {
+    position: relative;
+    top: 210px;
+    right: 40px;
+}
+
+
+.r2 {
+    position: relative;
+    top: 280px;
+    left: 250px;
+}
+
+.r3 {
+    position: relative;
+    bottom: 155px;
+    right: 10px;
+}
+
+.r4 {
+    position: relative;
+    left: 250px;
+    bottom: 80px;
 }
