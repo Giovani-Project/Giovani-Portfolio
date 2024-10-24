@@ -100,19 +100,24 @@ main {
     padding: 10px;
   
 }
-
-h2 {
+.h001 {
+    font-family: "Sedan SC", serif;
     font-size: 20px;
 }
 
+h2 {
+    font-size: 15px;
+    font-family: "Sedan SC", serif;
+}
+
 main p {
-    width: auto;
+    font-size: 10px;
     margin-right: 60px;
     margin-left: 60px;
     padding: 2em 1em;
     text-align: center;
     text-align: justify;
-    font-size: medium;
+    
 }
 
 main .nomegiovani {
@@ -126,9 +131,9 @@ main .resumo {
     text-shadow: 0px 0px 20px var(--cor2);
 }
 img {
-    height: 200px;
+    height: 140px;
     background-size: cover;
-    width: 200px;
+    width: 140px;
     left: 50%;
     border-radius: 50% 50%;
     float: right;
@@ -144,7 +149,8 @@ img:hover {
 }
 
 #redes > .verde  {
-    top: 147px;
+    top: 120px;
+    left: 30px;
     color: rgb(0, 0, 0);
     background-color: var(--cor2);
     border-radius: 40%;
@@ -152,24 +158,19 @@ img:hover {
     box-shadow: 0px 0px 20px var(--cor2);
 }
 #redes > .verde:hover {
-    transform: scale(1.2);
-    transition: transform 0.3s;
     color: black;
     text-decoration: none;
     
 }
 
 #redes > a {
-    border: 2px solid var(--cor2);
     border-radius: 40%;
     color: var(--cor2);
     position: relative;
-    float: right;
-    top: 147px;
-    padding: 5px;
-    margin-right: 20px;
     text-decoration: none;
     font-family: "Sedan SC", serif;
+    top: 120px;
+    left: 30px;
     
 }
 
@@ -177,9 +178,22 @@ img:hover {
     transform: scale(1.2);
     transition: transform 0.3s;
     color: var(--cor2);
-    text-decoration: none;
+    text-decoration: underline;
     text-shadow: 0px 0px 20px var(--cor2);
-    
+}
+.img01 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 70px;
+    bottom: 130px;
+}
+.img02 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 145px;
+    bottom: 130px;
 }
 /* Daqui pra cima é a foto + conteúdo*/
 
@@ -297,9 +311,9 @@ img:hover {
     
 }
 .r1 > p, .r2 > p, .r3 > p , .r4 > p {
-    text-indent: 30px;
+    text-indent: 20px;
     border: 1px solid white;
-    border-radius: 35% 35%;
+    border-radius: 20% 20%;
     top: 10px;
     border-color:  var(--cor2);
     box-shadow: 0px 0px 10px var(--cor2);
@@ -309,7 +323,7 @@ img:hover {
 
 .r1 > h3{
     position: relative;
-    left: 90px;
+    left: 80px;
     float: right;
     width: 100px;
     font-size: 12px;
@@ -333,7 +347,7 @@ img:hover {
 }
 .r4 > h3 {
     position: relative;
-    right: 10px;
+    right: 20px;
     font-size: 12px;
     float: left;
     width: 100px;
@@ -342,33 +356,33 @@ img:hover {
 
 .r1 {
     position: relative;
-    top: 155px;
-    left: 50px;
+    top: 180px;
+    left: 40px;
     
 }
 
 
 .r2 {
     position: relative;
-    top: 320px;
+    top: 340px;
     float: right;
-    right: 50px;
+    right: 30px;
    margin-block: 0px;
-    
+  
 }
 
 .r3 {
     position: relative;
     bottom: 155px;
-    right: 10px;
-    left: 50px;
+    
+    left: 40px;
 }
 
 .r4 {
     position: relative;
     float: right;
-    top: 15px;
-    right: 60px;
+    top: 20px;
+    right: 45px;
 }
 /* Daqui pra cima é a parte (educação)*/
 
@@ -433,7 +447,7 @@ footer {
     text-align: center;
     width: 100%;
     padding-top: 100px;
-    font-family: "Sedan SC", serif;
+    
 }
 
 footer > a { 
