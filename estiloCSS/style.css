@@ -283,27 +283,32 @@ img:hover {
 }
 .big1{
     position: relative;
-    font-size: 15px;
+    font-size: 10px;
+    left: 2px;
     right: 10px;
     bottom: 10px;
+    color: var(--cor2);
 }
 .big2{
     position: relative;
-    font-size: 17px;
-    right: 14px;
+    font-size: 10px;
+    right: 0px;
     bottom: 10px;
+    color: var(--cor2);
 }
 .big3{
     position: relative;
-    font-size: 17px;
-    right: -3px;
+    font-size: 10px;
+    left: 12px;
     bottom: 10px;
+    color: var(--cor2);
 }
 .big4{
     position: relative;
-    font-size: 17px;
-    right: 0px;
+    font-size: 10px;
+    right: -10px;
     bottom: 10px;
+    color: var(--cor2);
 }
 
 .r1, .r2 , .r3 , .r4 {
@@ -429,7 +434,7 @@ img:hover {
     color: #0B1215;
     border-radius: 20px 20px 20px 20px;
     background-color: var(--cor2);
-    height: 180px;
+    height: 130px;
 }
 
 .q1:hover , .q2:hover , .q3:hover , .q4:hover {
@@ -451,10 +456,11 @@ footer {
 }
 
 footer > a { 
-    text-align: justify;
+    
     margin-right: 10px;
     width: auto;
-    float: right;
+    font-size: 13px;
+    float: center;
     text-decoration: none;
     color: white;
     display: inline-block;
