@@ -8,14 +8,13 @@ Tablet:  768px até 992px
 Desktop: 992px até 1200px
 TV / (Grandes Telas): acima de 1200px
 */
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Updock&display=swap');
 
 @font-face {
     font-family: 'Akronim';
     font-family: 'Updock';
-    font-family: 'Kalnia_Glaze';
-    src: url('../Fonts/Akronim/Akronim-Regular.ttf') format('truetype');
-    src: url('../Fonts/Updock/Updock-Regular.ttf') format('truetype');
-    src: url('../Fonts/Kalnia_Glaze/KalniaGlaze-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-family: 'Kalnia+Glaze';
+    
     font-weight: normal;
 
 }
@@ -30,9 +29,9 @@ TV / (Grandes Telas): acima de 1200px
     --cor6: #101720;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-01: 'Akronim', cursive;
+    --fonte-01: "Sedan SC", serif;
     --fonte-02: 'Updock', cursive;
-    --fonte-03: 'Kalnia_Glaze', cursive;
+    --fonte-03: 'KalniaGlaze', cursive;
     }
 
 
@@ -65,7 +64,7 @@ header {
 }
 
 nav > h1 {
-    font-family: var(--fonte-02);
+    font-family: "Sedan SC", serif;
     font-size: 15px;
     padding: 30px 10vw;
     border: 0px;
@@ -74,6 +73,7 @@ nav > h1 {
 .sobrenome {
     color: var(--cor2);
     text-shadow: 0px 0px 20px var(--cor2);
+    
 }
 
 nav a{
@@ -84,7 +84,7 @@ nav a{
     text-decoration: none;
     color: white;
     display: inline-block;
-    
+    font-family: "Sedan SC", serif;
 }
 nav > a:hover {
     transform: scale(1.2);
@@ -98,6 +98,7 @@ nav > a:hover {
 
 main {
     padding: 10px;
+  
 }
 
 h2 {
@@ -117,6 +118,7 @@ main p {
 main .nomegiovani {
     color: var(--cor2);
     text-shadow: 0px 0px 20px var(--cor2);
+    
 }
 
 main .resumo {
@@ -141,23 +143,43 @@ img:hover {
     cursor: pointer;
 }
 
-main > section > div > a {
-    
-    position: relative;
-    left: 50px;
-    top: 100px;
-    margin-right: 20px;
+#redes > .verde  {
+    top: 147px;
+    color: rgb(0, 0, 0);
+    background-color: var(--cor2);
+    border-radius: 40%;
+    padding: 5px;
+    box-shadow: 0px 0px 20px var(--cor2);
+}
+#redes > .verde:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s;
+    color: black;
     text-decoration: none;
-    color: white;
     
 }
 
-div > a:hover { 
+#redes > a {
+    border: 2px solid var(--cor2);
+    border-radius: 40%;
+    color: var(--cor2);
+    position: relative;
+    float: right;
+    top: 147px;
+    padding: 5px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: "Sedan SC", serif;
+    
+}
+
+#redes > a:hover { 
     transform: scale(1.2);
     transition: transform 0.3s;
     color: var(--cor2);
-    text-decoration: underline;
+    text-decoration: none;
     text-shadow: 0px 0px 20px var(--cor2);
+    
 }
 /* Daqui pra cima é a foto + conteúdo*/
 
@@ -237,6 +259,7 @@ div > a:hover {
     text-align: center;
     font-size: 30px;
     text-shadow: 0px 0px 20px var(--cor2);
+    font-family: "Sedan SC", serif;
 }
 
 #raiz > div > p,h3 {
@@ -321,6 +344,7 @@ div > a:hover {
     position: relative;
     top: 155px;
     left: 50px;
+    
 }
 
 
@@ -365,15 +389,18 @@ div > a:hover {
     padding-bottom: 50px;
     text-align: center;
     text-shadow: 0px 0px 20px var(--cor2);
+    font-family: "Sedan SC", serif;
 }
 
  .q1 > h2,.q2  > h2{
    position: relative;
    right: -10px;
+   font-family: "Sedan SC", serif;
 }
 .q3 > h2,.q4 > h2 {
     position: relative;
    right: -10px;
+   font-family: "Sedan SC", serif;
 }
 
 #container > div > .q1,.q2,.q3,.q4, h2 {
@@ -406,6 +433,7 @@ footer {
     text-align: center;
     width: 100%;
     padding-top: 100px;
+    font-family: "Sedan SC", serif;
 }
 
 footer > a { 
