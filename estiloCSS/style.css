@@ -106,8 +106,10 @@ main {
 }
 
 h2 {
+    position: relative;
     font-size: 15px;
     font-family: "Sedan SC", serif;
+    margin-left: 45px;
 }
 
 main p {
@@ -284,7 +286,7 @@ img:hover {
 .big1{
     position: relative;
     font-size: 10px;
-    left: 2px;
+    left: -2px;
     right: 10px;
     bottom: 10px;
     color: var(--cor2);
@@ -292,21 +294,21 @@ img:hover {
 .big2{
     position: relative;
     font-size: 10px;
-    right: 0px;
+    right: 2px;
     bottom: 10px;
     color: var(--cor2);
 }
 .big3{
     position: relative;
     font-size: 10px;
-    left: 12px;
+    left: 4px;
     bottom: 10px;
     color: var(--cor2);
 }
 .big4{
     position: relative;
     font-size: 10px;
-    right: -10px;
+    right: -3px;
     bottom: 10px;
     color: var(--cor2);
 }
@@ -352,11 +354,11 @@ img:hover {
 }
 .r4 > h3 {
     position: relative;
-    right: 20px;
+    right: 15px;
     font-size: 12px;
     float: left;
     width: 100px;
-    bottom: 0px;
+    bottom: 5px;
 }
 
 .r1 {
