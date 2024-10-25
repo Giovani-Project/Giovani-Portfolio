@@ -176,14 +176,14 @@ img:hover {
     height: 30px;
     position: absolute;
     left: 70px;
-    bottom: 130px;
+    margin-top: 80px;
 }
 .img02 {
     width: 30px;
     height: 30px;
     position: absolute;
     left: 145px;
-    bottom: 130px;
+    margin-top: 80px;
 }
 /* Daqui pra cima é a foto + conteúdo*/
 
